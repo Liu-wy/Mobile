@@ -1,0 +1,153 @@
+
+/* 搜索框 */
+.top{
+    background-color: #dddddd;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 110;
+    top: 0;
+    left: 0;
+}
+/* body{
+    height: 1000px;
+
+} */
+.top form{
+    width: 100%;
+    height: 40px;
+    padding: 5px 40px 5px 40px;
+    position: relative;
+}
+.top form input{
+    width: 100%;
+    border-radius: 50px;
+    background-color: #cccccc;
+    height: 30px;
+    padding-left: 4px;
+}
+.top form span{
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+.top form img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
+
+/* tab切换 */
+.header{
+    background-color: #dddddd;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.header ul{
+    width: 100%;
+}
+.header a{
+    height: 30px;
+}
+.header .nav-tabs>.active a{
+    border-bottom: 2px solid red;
+    color: #555;
+    color: red;
+}
+.header .nav-tabs li>a:hover{
+    border-bottom: 2px solid red;
+    color: red;
+
+}
+
+.box{
+    width: 95%;
+    margin: auto;
+}
+/* 轮播图 */
+.loop{
+    width: 100%;
+}
+.loop > .carousel{
+    position: relative;
+} 
+.loop .carousel> .point{
+    position: absolute;
+    bottom: 5px;
+    width: 50px;
+    left: 80%;
+    margin-left: 0;
+}
+
+.loop .item{
+    width: 100%;
+}
+.loop .item img{
+    width: 100%;
+}
+/* 导航 */
+.box .nav{
+    width: 100%;
+    background-color: rgba(246, 179, 189, 0.233);
+    /* background-color: rgb(206, 202, 202); */
+}
+.nav>img{
+    width: 100%;
+}
+.nav ul{
+    padding: 10px 0;
+}
+.nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.nav ul li img{
+    width: 40px;
+    height: 40px;
+}
+/* 推荐 */
+.tuijian{
+    width: 100%;
+}
+.tuijian>img{
+    width: 100%;
+}
+.tuijian ul{
+    width: 100%;
+    padding: 0 10px;
+    background-color: rgba(246, 179, 189, 0.233);
+
+}
+.tuijian ul li{
+    float: left;
+    width: calc(100%/3);
+    padding: 2px;
+}
+.tuijian ul img{
+    width: 100%;
+    height: 160px;
+}
+
+/* 购物车 */
+.shopCar{
+
+    background-color: rgba(34, 30, 30, 0.89);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    left: 20px;
+    top: 80%;
+    z-index: 10;
+    
+}
+.shopCar>img{
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+}

@@ -1,0 +1,210 @@
+.header{
+    width: 100%;
+    height: 58px;
+    text-align: center;
+}
+.header .logo{
+    height: 58px;
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+}
+.header img{
+    width: 53px;
+    height: 53px;
+    vertical-align: middle;
+}
+/* 轮播图 */
+.carousel .item{
+    width: 100%;
+}
+.carousel .item img{
+    width: 100%;
+}
+
+
+
+
+/* 中间图片部分 */
+.center{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.centerS{
+    width: 100%;
+}
+.center .center-l{
+    width: 45%;
+    /* margin: 0 0 10px 10px; */
+    background-color: #dddddd;
+    border-radius: 5px;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.center .center-l img{
+    width: 40%;
+    height: 100%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.center .center-l .cWord{
+    width: 50%;
+    /* background-color: #dddddd; */
+    float: left;
+    font-size: 16px;
+    padding-top: 2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.end .endOne{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.end .endOne span:nth-of-type(1){
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+}
+.end .endOne span:nth-of-type(2){
+    font-size: 16px;
+    border-left: 2px solid #000;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.returnTop{
+    margin-top: 10px;
+    height: 38px;
+    background-color: #f23030;
+    width: 100%;
+    position: relative;
+}
+.returnTop .rt{
+    width: 60px;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+}
+
+
+.footer{
+    width: 100%;
+    height: 180px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    /* margin-bottom: 80px; */
+}
+.footer>a{
+    color: #ccc;
+}
+.footer>span:nth-of-type(1){
+    padding-right: 10px;
+    border-right: 2px solid #ccc;
+    margin-right: 10px;
+}
+.footer>img{
+    width: 10px;
+    height: 10px;
+    vertical-align: top;
+}
+.bottom{
+    width: 100%;
+    background: rgba(75,75,75,0.8958333333333334);
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+}
+.bottom ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav{
+    position: fixed;
+    bottom: 80px;
+    left: 10px;
+    padding: 1px;
+    border-radius: 50%;
+
+}
+.nav{
+    border-radius: 50%;
+}
+.nav>button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f23030;
+    border-color: rgba(230, 226, 226, 0.534);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+.nav>button:hover{
+    background-color: #f23030!important;
+    /* border-color: rgba(230, 226, 226, 0.534)!important; */
+    border: none!important;
+}
+
+.nav .well{
+    margin-bottom: 0;
+    padding: 10px;
+    opacity: 1;
+    z-index: 1000!important;
+}
+.nav .well li{
+    /* height: 40px; */
+    padding: 10px 0;
+}
+
+.nav .well a{
+    font-size: 16px;
+    color: #666666;
+}
+.nav .well a span{
+    margin-left: 15px;
+}
+.nav .well a:hover{
+    color: #f23030;
+}
+.nav .well ul>.wellOne>a:nth-of-type(1){
+    color: #f23030;
+}
+.nav .well ul>.wellOne>a:nth-of-type(1)>span{
+    color: #666666;
+}
+
+.nav .well{
+    height: 300px;
+    width: 150px;
+}
+.nav .well li{
+    display: none;
+}
+
+
+
+
+@media all and (max-width:580px){
+    .cWord>span{
+        font-size: 12px;
+    }
+    .end .endOne{
+        font-size: 14px;
+    }
+}
